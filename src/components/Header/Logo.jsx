@@ -1,7 +1,6 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
 import './Header.css';
-import { Link } from 'react-router-dom'
 import { gsap } from "gsap";
 import { connect } from 'react-redux'
 
