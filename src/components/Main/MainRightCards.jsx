@@ -48,8 +48,6 @@ function MainRightCards(props) {
         let stringCart = JSON.stringify(cartCopy, replacerFunc());
         localStorage.setItem("Eli", stringCart);
 
-        swal("Good job!", "Item added to cart!", "success");
-
         window.location.reload();
     };
 

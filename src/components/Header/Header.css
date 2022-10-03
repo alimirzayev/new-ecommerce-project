@@ -144,6 +144,7 @@ hr {
 
 .active {
   display: flex;
+  z-index: 999;
 }
 
 .shopping-cart h2 {
