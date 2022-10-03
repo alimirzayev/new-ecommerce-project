@@ -1,9 +1,8 @@
 import React from 'react'
 import './Testimonial.css';
-
 import { Swiper, SwiperSlide } from "swiper/react";
-// import 'swiper/swiper-bundle.min.css'
-// import 'swiper/swiper.min.css'
+import 'swiper/swiper-bundle.min.css'
+import 'swiper/swiper.min.css'
 import SwiperCore, { Navigation } from 'swiper';
 
 function Testimonial() {
